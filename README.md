@@ -1,68 +1,89 @@
-<h1 align="center">Quiz Platform</h1>
+# Quiz Platform (Java)
 
-<p align="center">
-  A Java-based quiz platform developed for Task 2 of the internship at SSZone Technologies.
-</p>
+A Java-based quiz platform developed as part of an internship project at **SSZone Technologies**.
+The application allows users to create quizzes, attempt quizzes, and manage quiz data through structured object-oriented design.
 
-## Table of Contents
+---
 
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
+## 🚀 Features
 
-## Technologies Used
+* User authentication system
+* Create and manage quizzes
+* Attempt quizzes and submit answers
+* Score calculation after quiz completion
+* Organized object-oriented structure
 
-- Java
-- JavaFX
+---
 
-## Features
+## 🛠️ Tech Stack
 
-- User authentication
-- Quiz creation
-- Quiz taking functionalities
+* Java
+* Object-Oriented Programming (OOP)
+* Basic data structures
+* Console-based interaction
 
-## Getting Started
+---
 
-To get a local copy up and running, follow these simple steps.
+## 📂 Project Structure
 
-## Prerequisites
+```
+src/
+ ├── authentication
+ ├── quiz
+ ├── user
+ ├── question
+ └── main application files
+```
 
-- Java Development Kit (JDK)
+---
 
-## Installation
+## ▶️ How to Run
 
-1. Clone the repo
-   ```sh
-   git clone [https://github.com/Gupta-Prasoon/quiz-platform-java.git]
+1. Clone the repository
 
-1. Open the project in your preferred Java IDE
-   
-## Usage
+```
+git clone https://github.com/PrasoonGupta078/quiz-platform-java.git
+```
 
-Create a new quiz
-Take a quiz
-Share a quiz
+2. Navigate to the project folder
 
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+```
+cd quiz-platform-java
+```
 
-1. Fork the project
-2. Create your feature branch (git checkout -b feature/AmazingFeature)
-3. Commit your changes (git commit -m 'Add some AmazingFeature')
-4. Push to the branch (git push origin feature/AmazingFeature)
-5. Open a pull request
-   
-## License
+3. Compile the Java files
 
-Distributed under the MIT License. See LICENSE for more information.
+```
+javac Main.java
+```
 
-## Acknowledgements
-Thanks to SSZone Technologies for the internship opportunity.
+4. Run the program
 
-## Contact
-For feedback or issues, please contact Prasoon Gupta at [gamesorcerer48@gmail.com].
+```
+java Main
+```
+
+---
+
+## 📚 What I Learned
+
+* Designing modular Java programs
+* Implementing authentication logic
+* Structuring projects using OOP principles
+* Handling user input and quiz logic
+
+---
+
+## 🔮 Future Improvements
+
+* Add graphical user interface (GUI)
+* Add database integration (MySQL / PostgreSQL)
+* Implement timer for quiz questions
+* Add leaderboard system
+
+---
+
+## 👨‍💻 Author
+
+Prasoon Gupta
+MCA Student | Java Backend Developer | Unity Game Dev Enthusiast
